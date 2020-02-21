@@ -1,0 +1,69 @@
+{
+  "_from": "@shopify/theme-addresses@^3.0.3",
+  "_id": "@shopify/theme-addresses@3.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-+xvOrJHX25dQcJTVNNeCkCw4E7gtFfZPWCDP661ZYhPFQLHVifJ5VV4CZIYbu/SmAVA+29G1fAvLebJI5JSusA==",
+  "_location": "/@shopify/theme-addresses",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@shopify/theme-addresses@^3.0.3",
+    "name": "@shopify/theme-addresses",
+    "escapedName": "@shopify%2ftheme-addresses",
+    "scope": "@shopify",
+    "rawSpec": "^3.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@shopify/theme-addresses/-/theme-addresses-3.0.3.tgz",
+  "_shasum": "3f2d3347dea8a14a3faf1d76d40166bb0060a76e",
+  "_spec": "@shopify/theme-addresses@^3.0.3",
+  "_where": "/Users/devolk/Websites/scholl/scholl-theme",
+  "author": {
+    "name": "Shopify Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/Shopify/theme-scripts/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A library that helps developers work with addresses within Shopify Themes",
+  "devDependencies": {
+    "fetch-mock": "^6.5.2",
+    "isomorphic-fetch": "^2.2.1",
+    "rollup": "^0.62.0",
+    "rollup-plugin-uglify": "^4.0.0",
+    "size-limit": "^0.18.3"
+  },
+  "homepage": "https://github.com/Shopify/theme-scripts#readme",
+  "keywords": [
+    "slate"
+  ],
+  "license": "MIT",
+  "main": "dist/theme-addresses.cjs.js",
+  "module": "theme-addresses.js",
+  "name": "@shopify/theme-addresses",
+  "publishConfig": {
+    "access": "public",
+    "@shopify:registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shopify/theme-scripts.git"
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "prepublishOnly": "npm run build",
+    "size": "size-limit"
+  },
+  "size-limit": [
+    {
+      "path": "theme-addresses.js"
+    }
+  ],
+  "version": "3.0.3"
+}
